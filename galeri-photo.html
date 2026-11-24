@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1B498B">
+    <meta name="description" content="Dokumentasi foto kegiatan resmi Natural Akademi: program inkubasi UMKM & Koperasi, studi banding inovasi produk, pameran expo daerah, serta fasilitas modern rumah produksi.">
+    <title>Galeri Photo | Natural Akademi</title>
+    <link rel="icon" type="image/jpeg" href="Informasi%20mengenai%20natural%20akademi/Natural%20akademi%20logo%201.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Lewati navigasi</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Natural Akademi — Beranda">
+          <img src="Informasi%20mengenai%20natural%20akademi/Natural%20akademi%20logo%201.jpeg" width="1600" height="1596" alt="Logo Natural Akademi">
+          <span>Natural <strong>Akademi</strong></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" hidden>
+          <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="visually-hidden menu-label">Buka menu navigasi</span>
+        </button>
+
+        <nav id="primary-navigation" class="navigation" aria-label="Navigasi utama">
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li class="nav-dropdown">
+              <button
+                class="dropdown-trigger"
+                type="button"
+                aria-expanded="false"
+                aria-controls="dropdown-about"
+                aria-haspopup="true"
+              >
+                <span>Tentang Kami</span>
+                <svg class="dropdown-chevron" width="9" height="9" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+                  <path d="M2.5 4.5L6 8L9.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <ul id="dropdown-about" class="dropdown-menu">
+                <li><a href="visi-misi.html">Visi dan Misi</a></li>
+                <li><a href="tujuan-utama.html">Tujuan Utama</a></li>
+                <li><a href="struktur-pengelola.html">Struktur Pengelola</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#program">Program</a></li>
+            <li class="nav-dropdown">
+              <button
+                class="dropdown-trigger"
+                type="button"
+                aria-expanded="false"
+                aria-controls="dropdown-curriculum"
+                aria-haspopup="true"
+              >
+                <span>Kurikulum</span>
+                <svg class="dropdown-chevron" width="9" height="9" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+                  <path d="M2.5 4.5L6 8L9.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <ul id="dropdown-curriculum" class="dropdown-menu">
+                <li><a href="kurikulum-inkubasi-umkm.html">Kurikulum Inkubasi UMKM</a></li>
+                <li><a href="strategi-inkubasi-koperasi.html">Strategi Inkubasi Koperasi</a></li>
+              </ul>
+            </li>
+            <li class="nav-dropdown">
+              <button
+                class="dropdown-trigger"
+                type="button"
+                aria-expanded="false"
+                aria-controls="dropdown-gallery"
+                aria-haspopup="true"
+                aria-current="true"
+              >
+                <span>Galeri</span>
+                <svg class="dropdown-chevron" width="9" height="9" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+                  <path d="M2.5 4.5L6 8L9.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <ul id="dropdown-gallery" class="dropdown-menu">
+                <li><a href="index.html#galeri-instagram">Galeri Instagram</a></li>
+                <li><a href="galeri-photo.html" aria-current="page">Galeri Photo</a></li>
+              </ul>
+            </li>
+            <li><a href="mitra.html">Mitra</a></li>
+            <li><a class="nav-contact" href="index.html#kontak">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb-list">
+          <li><a href="index.html">Beranda</a></li>
+          <li><span class="breadcrumb-sep" aria-hidden="true">›</span></li>
+          <li><span>Galeri</span></li>
+          <li><span class="breadcrumb-sep" aria-hidden="true">›</span></li>
+          <li aria-current="page">Galeri Photo</li>
+        </ol>
+      </div>
+    </nav>
+
+    <main id="main-content" class="page-content" tabindex="-1">
+      <div class="container">
+        <section class="gallery-photo-container" aria-labelledby="photo-title">
+          <h1 class="visi-misi-title" id="photo-title">GALERI PHOTO KEGIATAN</h1>
+          <p class="partner-lead" style="margin-bottom: 24px;">
+            Dokumentasi resmi perjalanan program pendampingan, studi banding, expo & pameran, fasilitasi legalitas & kemitraan, serta pengadaan mesin di Rumah Produksi Natural Akademi.
+          </p>
+
+          <!-- Filter Kategori Foto -->
+          <div class="gallery-filter-bar" role="tablist" aria-label="Filter Kategori Kegiatan">
+            <button type="button" class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">Semua Kegiatan (16)</button>
+            <button type="button" class="filter-btn" data-filter="studi" role="tab" aria-selected="false">Studi Banding & Kunjungan</button>
+            <button type="button" class="filter-btn" data-filter="pameran" role="tab" aria-selected="false">Pameran & Expo</button>
+            <button type="button" class="filter-btn" data-filter="produksi" role="tab" aria-selected="false">Fasilitas Produksi</button>
+            <button type="button" class="filter-btn" data-filter="kemitraan" role="tab" aria-selected="false">Kemitraan & Edukasi</button>
+          </div>
+
+          <!-- Grid Foto Galeri -->
+          <ul class="photo-gallery-grid" id="photo-gallery-grid">
+
+            <!-- 1. Studi Banding Payakumbuh -->
+            <li class="photo-item" data-category="studi">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_1.jpg" data-caption="Studi Banding Pengelolaan Sentra Rendang Kota Payakumbuh bersama Bank Indonesia Perwakilan Aceh untuk konsolidasi standarisasi higienis dan perizinan industri olahan pangan." aria-label="Lihat foto Studi Banding Sentra Rendang Payakumbuh">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_1.jpg" alt="Studi Banding bersama BI ke Sentra Rendang Payakumbuh" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Studi Banding</span>
+                  <h2 class="photo-title">Studi Banding Sentra Rendang Payakumbuh</h2>
+                  <p class="photo-date">Payakumbuh, Sumatera Barat</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 2. Soft Launching BI -->
+            <li class="photo-item" data-category="kemitraan">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_2.jpg" data-caption="Soft Launching Sharing Packaging dan Marketing Natural Akademi dalam program Capacity Building Wirausaha Unggul Bank Indonesia (WUBI) Aceh." aria-label="Lihat foto Soft Launching Sharing Packaging BI">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_2.jpg" alt="Soft Launching Sharing Packaging dan Marketing Natural Akademi bersama BI" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Kemitraan</span>
+                  <h2 class="photo-title">Soft Launching Sharing Packaging & Marketing</h2>
+                  <p class="photo-date">WUBI Bank Indonesia Aceh</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 3. Meugah Festival QRIS -->
+            <li class="photo-item" data-category="pameran">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_5.jpg" data-caption="Partisipasi UMKM Binaan Natural Aceh pada Meugah Festival Aceh 2022 dan program SERBU UMKM ACEH bertransaksi digital via QRIS." aria-label="Lihat foto Meugah Festival Aceh">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_5.jpg" alt="Stan UMKM Binaan Natural Aceh pada Meugah Festival Aceh" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Pameran</span>
+                  <h2 class="photo-title">Meugah Festival Aceh & SERBU QRIS</h2>
+                  <p class="photo-date">Banda Aceh</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 4. Bazar Banda Aceh Gemilang Expo -->
+            <li class="photo-item" data-category="pameran">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_9.jpg" data-caption="Fasilitasi promosi dan temu pembeli produk unggulan olahan pangan dan kriya binaan Natural Akademi pada Bazar Banda Aceh Gemilang Expo." aria-label="Lihat foto Bazar Banda Aceh Gemilang Expo">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_9.jpg" alt="Bazar Banda Aceh Gemilang Expo produk binaan Natural Akademi" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Pameran</span>
+                  <h2 class="photo-title">Bazar Banda Aceh Gemilang Expo</h2>
+                  <p class="photo-date">Pemko Banda Aceh</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 5. Kitchen Tour & Uji Mesin Pengemasan -->
+            <li class="photo-item" data-category="produksi">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_11.jpg" data-caption="Program Kitchen Tour dan simulasi pengoperasian mesin packaging (continuous sealer & vacuum) bagi pelaku UMKM di Rumah Produksi Natural Akademi." aria-label="Lihat foto Kitchen Tour Rumah Produksi">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_11.jpg" alt="Kitchen Tour & Simulasi Mesin Pengemasan di Rumah Produksi" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Produksi</span>
+                  <h2 class="photo-title">Kitchen Tour & Simulasi Mesin Packaging</h2>
+                  <p class="photo-date">Rumah Produksi Natural Akademi</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 6. MoU Koperasi Samudera Mandiri Leupung -->
+            <li class="photo-item" data-category="kemitraan">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_12.jpg" data-caption="Penandatanganan Nota Kesepahaman (MoU) Kerjasama Inkubasi Koperasi Samudera Mandiri Leupung untuk penguatan kelembagaan dan hilirisasi produk perikanan." aria-label="Lihat foto MoU Kerjasama Koperasi Samudera Mandiri Leupung">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_12.jpg" alt="Penandatanganan MoU Kerjasama NAK dengan Koperasi Samudera Mandiri Leupung" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Kemitraan</span>
+                  <h2 class="photo-title">MoU Koperasi Samudera Mandiri Leupung</h2>
+                  <p class="photo-date">Leupung, Aceh Besar</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 7. Kunjungan Industri UMKM Zanana Bandung -->
+            <li class="photo-item" data-category="studi">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_13.jpg" data-caption="Kunjungan benchmarking ke pabrik keripik pisang Zanana di Bandung untuk mempelajari sistem packaging modern, branding skala nasional, dan manajemen distribusi logistik." aria-label="Lihat foto Kunjungan UMKM Zanana Bandung">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_13.jpg" alt="Kunjungan Industri ke UMKM Zanana di Bandung" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Studi Banding</span>
+                  <h2 class="photo-title">Kunjungan Ekosistem UMKM Zanana Bandung</h2>
+                  <p class="photo-date">Bandung, Jawa Barat</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 8. Studi Inovasi Herbal Acaraki Jamu Jakarta -->
+            <li class="photo-item" data-category="studi">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_14.jpg" data-caption="Eksplorasi teknik ekstraksi modern rempah lokal, desain kemasan produk premium, dan pengalaman kafe herbal di Acaraki Jamu Kota Tua Jakarta." aria-label="Lihat foto Studi Banding Acaraki Jamu Jakarta">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_14.jpg" alt="Kunjungan ke Acaraki Jamu Kota Tua Jakarta" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Studi Banding</span>
+                  <h2 class="photo-title">Studi Inovasi Herbal di Acaraki Jamu</h2>
+                  <p class="photo-date">Kota Tua, Jakarta</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 9. Kerjasama LPP RRI Banda Aceh -->
+            <li class="photo-item" data-category="kemitraan">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_15.jpg" data-caption="Audiensi pimpinan Natural Akademi bersama jajaran direksi LPP RRI Banda Aceh untuk penjajakan kolaborasi siaran edukasi kewirausahaan dan pemberdayaan perempuan." aria-label="Lihat foto Kerjasama LPP RRI Banda Aceh">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_15.jpg" alt="Audiensi Kerjasama Program bersama LPP RRI Banda Aceh" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Kemitraan</span>
+                  <h2 class="photo-title">Kerjasama Program bersama LPP RRI Banda Aceh</h2>
+                  <p class="photo-date">LPP RRI Banda Aceh</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 10. M Bloc Market Jakarta -->
+            <li class="photo-item" data-category="kemitraan">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_17.jpg" data-caption="Kurasi dan pembukaan jaringan pemasaran produk olahan pangan khas Aceh agar dapat menembus pasar ritel modern nasional di M Bloc Market Jakarta Selatan." aria-label="Lihat foto M Bloc Market Jakarta">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_17.jpg" alt="Sharing Distribusi Produk UMKM Aceh ke M Bloc Market Jakarta" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Kemitraan Pasar</span>
+                  <h2 class="photo-title">Distribusi Produk ke M Bloc Market Jakarta</h2>
+                  <p class="photo-date">M Bloc, Jakarta Selatan</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 11. Pengadaan Mesin Continuous Band Sealer -->
+            <li class="photo-item" data-category="produksi">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_21.jpg" data-caption="Fasilitas mesin segel kemasan continuous band sealer Heavy Pack otomatis dilengkapi pencetak kode kadaluwarsa (exp date) di Rumah Produksi Natural Akademi." aria-label="Lihat foto Mesin Continuous Band Sealer">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_21.jpg" alt="Mesin Continuous Band Sealer Heavy Pack di Rumah Produksi Natural Akademi" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Produksi</span>
+                  <h2 class="photo-title">Fasilitas Mesin Continuous Band Sealer</h2>
+                  <p class="photo-date">Rumah Produksi Natural Akademi</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 12. Local Trend Pop-Up Show Plaza Aceh -->
+            <li class="photo-item" data-category="pameran">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_42.jpg" data-caption="Pameran produk kriya, anyaman etnik bongsang pandan, dan suvenir khas daerah karya kelompok perajin perempuan binaan Natural Aceh di Plaza Aceh." aria-label="Lihat foto Local Trend Pop-Up Show Plaza Aceh">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_42.jpg" alt="Local Trend Pop-Up Show Anyaman dan Kerajinan di Plaza Aceh" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Pameran</span>
+                  <h2 class="photo-title">Local Trend Pop-Up Show di Plaza Aceh</h2>
+                  <p class="photo-date">Plaza Aceh, Banda Aceh</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 13. Gerai Bandara Sultan Iskandar Muda -->
+            <li class="photo-item" data-category="kemitraan">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_44.jpg" data-caption="Display etalase suvenir tas anyaman Pandan Wangi dan camilan khas binaan Koperasi WUBI & Natural Aceh di Bandara Internasional Sultan Iskandar Muda." aria-label="Lihat foto Gerai Bandara Sultan Iskandar Muda">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_44.jpg" alt="Etalase Produk UMKM Binaan di Bandara Sultan Iskandar Muda" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Akses Pasar</span>
+                  <h2 class="photo-title">Gerai Binaan di Bandara Sultan Iskandar Muda</h2>
+                  <p class="photo-date">Bandara Internasional SIM</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 14. MoU SMKN 1 Banda Aceh -->
+            <li class="photo-item" data-category="kemitraan">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_47.jpg" data-caption="Focus Group Discussion (FGD) dan penandatanganan nota kesepahaman program link & match wirausaha vokasi dan magang industri bersama SMKN 1 Banda Aceh." aria-label="Lihat foto MoU Kerjasama SMKN 1 Banda Aceh">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_47.jpg" alt="FGD dan Penandatanganan Kerjasama SMKN 1 Banda Aceh" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Kemitraan</span>
+                  <h2 class="photo-title">MoU Kerjasama Pendidikan bersama SMKN 1</h2>
+                  <p class="photo-date">SMKN 1 Banda Aceh</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 15. Meulaboh Digital Festival -->
+            <li class="photo-item" data-category="pameran">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_40.jpg" data-caption="Eksibisi produk unggulan barat-selatan Aceh dan edukasi transaksi digital non-tunai di stan pameran Koperasi WUBI & Natural Aceh pada Meulaboh Digital Festival." aria-label="Lihat foto Meulaboh Digital Festival">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_40.jpg" alt="Stan Pameran Koperasi WUBI di Meulaboh Digital Festival" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Pameran</span>
+                  <h2 class="photo-title">Meulaboh Digital Festival</h2>
+                  <p class="photo-date">Meulaboh, Aceh Barat</p>
+                </div>
+              </div>
+            </li>
+
+            <!-- 16. Talkshow UMKM RRI Pro 1 -->
+            <li class="photo-item" data-category="kemitraan">
+              <div class="photo-card" tabindex="0" role="button" data-full="images/galeri/foto_kegiatan_48.jpg" data-caption="Siaran langsung talkshow kewirausahaan di Pro 1 RRI Banda Aceh membahas strategi peningkatan kelas bisnis UMKM, standardisasi kemasan, dan sertifikasi BNSP." aria-label="Lihat foto Talkshow UMKM RRI Pro 1">
+                <div class="photo-thumb-wrap">
+                  <img src="images/galeri/foto_kegiatan_48.jpg" alt="Talkshow UMKM di Studio Pro 1 RRI Banda Aceh" loading="lazy">
+                  <div class="photo-overlay">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Perbesar Foto</span>
+                  </div>
+                </div>
+                <div class="photo-info">
+                  <span class="photo-tag">Kemitraan & Edukasi</span>
+                  <h2 class="photo-title">Talkshow UMKM di Pro 1 RRI Banda Aceh</h2>
+                  <p class="photo-date">Studio Pro 1 RRI Banda Aceh</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <!-- Modal Lightbox Pratinjau Foto -->
+    <div class="lightbox-modal" id="photo-lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau Foto Dokumentasi" hidden>
+      <div class="lightbox-backdrop"></div>
+      <div class="lightbox-dialog">
+        <button type="button" class="lightbox-close" aria-label="Tutup jendela pratinjau">&times;</button>
+        <button type="button" class="lightbox-nav lightbox-prev" aria-label="Foto sebelumnya">&#10094;</button>
+        <button type="button" class="lightbox-nav lightbox-next" aria-label="Foto selanjutnya">&#10095;</button>
+        <div class="lightbox-body">
+          <img src="" alt="" class="lightbox-img" id="lightbox-img">
+          <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer" id="kontak" aria-labelledby="contact-title" tabindex="-1">
+      <div class="footer-main-area">
+        <div class="container footer-container">
+          
+          <!-- Kolom Kiri: HUBUNGI KAMI -->
+          <div class="footer-col-left">
+            <h2 class="footer-col-title" id="contact-title">HUBUNGI KAMI</h2>
+            
+            <div class="footer-contact-info">
+              <p class="footer-info-item">
+                Jl. Tgk. Adee II No 8, Ulee Kareng,<br>Banda Aceh, Aceh, Indonesia 23117
+              </p>
+              <p class="footer-info-item">
+                <a href="https://wa.me/628979276758" target="_blank" rel="noopener noreferrer">WhatsApp +62 897-9276-758</a>
+              </p>
+              <p class="footer-info-item">
+                <a href="mailto:akademi@naturalaceh.org">Email akademi@naturalaceh.org</a>
+              </p>
+            </div>
+
+            <!-- Ikon Media Sosial Horizontal (Putih polos tanpa kotak/lingkaran) -->
+            <div class="footer-social-row" aria-label="Media Sosial dan Kontak Resmi">
+              <a class="footer-social-icon" href="https://wa.me/628979276758" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Natural Akademi">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12.031 2C6.511 2 2.016 6.496 2.016 12.016c0 1.954.56 3.86 1.625 5.517L2 22.031l4.633-1.602a9.99 9.99 0 0 0 5.398 1.579c5.52 0 10.016-4.496 10.016-10.016 0-5.52-4.496-9.992-10.016-9.992zm5.727 14.156c-.242.68-1.22 1.305-1.695 1.383-.446.078-1.016.14-3.14-.742-2.313-.961-3.797-3.32-3.914-3.477-.117-.156-.938-1.25-.938-2.383 0-1.133.586-1.688.805-1.922.21-.234.468-.297.625-.297.156 0 .312 0 .445.008.149.008.352-.055.555.43.211.5.719 1.758.781 1.883.063.125.102.273.016.438-.078.164-.117.273-.234.414-.117.14-.242.32-.344.43-.117.117-.242.242-.102.476.14.242.625 1.031 1.344 1.672.922.82 1.703 1.078 1.945 1.195.242.117.383.102.523-.062.14-.164.602-.703.766-.945.164-.242.328-.203.547-.117.219.078 1.39.656 1.633.781.242.117.406.18.468.281.063.102.063.586-.18 1.266z"/>
+                </svg>
+              </a>
+              <a class="footer-social-icon" href="https://www.instagram.com/naturalaceh/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Natural Aceh">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+              </a>
+              <a class="footer-social-icon" href="https://naturalaceh.org/" target="_blank" rel="noopener noreferrer" aria-label="Website Resmi Natural Aceh">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                </svg>
+              </a>
+              <a class="footer-social-icon" href="mailto:akademi@naturalaceh.org" aria-label="Email Natural Akademi">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: TAUTAN CEPAT (Rata Kanan) -->
+          <div class="footer-col-right">
+            <h2 class="footer-col-title">TAUTAN CEPAT</h2>
+            <nav class="footer-quick-links" aria-label="Tautan Cepat">
+              <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="visi-misi.html">Visi dan Misi</a></li>
+                <li><a href="index.html#program">Program</a></li>
+                <li><a href="kurikulum-inkubasi-umkm.html">Kurikulum</a></li>
+                <li><a href="galeri-photo.html">Galeri Photo</a></li>
+                <li><a href="mitra.html">Mitra</a></li>
+                <li><a href="index.html#kontak">Kontak</a></li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Bar Copyright Paling Bawah -->
+      <div class="footer-bottom-bar">
+        <div class="container">
+          <p class="footer-copyright-text">&copy; COPYRIGHT <span data-current-year>2026</span> - NATURAL AKADEMI / NATURAL ACEH - ALL RIGHTS RESERVED.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
